@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mbokodwa Farming (Pty) Ltd | MJ Ndonyela Poultry</title>
+    
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAKAAAAEAAAABAAAAAgAAAAAABAACAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAAAAAAAAAAAAAEBAQEDAwMDBAQEBAUFBQUGBgYGCQkJCQsLCwwMDAwNDQ0ODg4OEBAQEBERERESEhISExMTEwAAAAAAAAAAAwMDAwQEBAQFBQUGBgYGCQkJCQsLCwwMDAwNDQ0ODg4OEBAQEBERERESEhISExMTEwAAAAAAAAAAAAAAAQEBAQMDAwMEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAAAAAAAAAAAAAAAAwMDAwQEBAQFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQAAAAAAAAAAAAAAAQEBAQMDAwMEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAAAAAAAAAAAAAAAAAAAAAAAA">
+
+    <style>
+        :root {
+            --fb-blue: #1877F2;
+            --farm-green: #1b5e20;
+            --chicken-accent: #f39c12;
+            --bg-light: #f4f7f6;
+            --text-dark: #333;
+        }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+        }
+
+        header {
+            /* Smooth background overlay over a clean farming image */
+            background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?auto=format&fit=crop&q=80&w=1200') center/cover;
+            color: white;
+            text-align: center;
+            padding: 70px 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: -30px auto 40px;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+            box-sizing: border-box;
+        }
+
+        .business-title {
+            margin: 0;
+            font-size: 2.2rem;
+            text-transform: uppercase;
+        }
+
+        .location-tag {
+            font-weight: bold;
+            color: var(--chicken-accent);
+            letter-spacing: 1px;
+            margin-top: 5px;
+        }
+
+        h2 {
+            color: var(--farm-green);
+            margin-top: 0;
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .card {
+            background: #fafafa;
+            border: 1px solid #eee;
+            padding: 20px;
+            border-radius: 8px;
+            border-top: 4px solid var(--farm-green); /* Changed to farm green to accent the brand */
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: var(--farm-green);
+            font-size: 1rem;
+            text-transform: uppercase;
+        }
+
+        .card p a {
+            color: var(--text-dark);
+            text-decoration: none;
+        }
+        
+        .card p a:hover {
+            text-decoration: underline;
+            color: var(--farm-green);
+        }
+
+        .facebook-cta {
+            text-align: center;
+            background: #e7f3ff;
+            padding: 30px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .facebook-cta h3 {
+            margin-top: 0;
+            color: var(--fb-blue);
+        }
+
+        .fb-button {
+            display: inline-block;
+            background-color: var(--fb-blue);
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: transform 0.2s, background 0.3s;
+        }
+
+        .fb-button:hover {
+            background-color: #145dbf;
+            transform: scale(1.03);
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #888;
+            font-size: 0.85rem;
+        }
+
+        @media (max-width: 600px) {
+            .info-grid { grid-template-columns: 1fr; }
+            .container { margin: -15px 15px 40px; padding: 25px; }
+            .business-title { font-size: 1.6rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1 class="business-title">Mbokodwa Farming (Pty) Ltd</h1>
+        <p class="location-tag">Harding, KwaZulu-Natal</p>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>Quality Chicken Poultry</h2>
+            <p>Welcome to <strong>Mbokodwa Farming</strong>. We specialize in rearing and supplying healthy chickens to the Harding community and beyond. High quality, organic growth, and reliable supply are our promises to you.</p>
+        </section>
+
+        <div class="info-grid">
+            <div class="card">
+                <h3>📍 Physical Address</h3>
+                <p>
+                    Embizweni, Ward 9 Location<br>
+                    D1100 Road<br>
+                    <strong>Harding, 4680</strong>
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>📞 Contact Joseph</h3>
+                <p>
+                    <strong>Phone:</strong> <a href="tel:070834459163">07083 4459163</a><br>
+                    <strong>WhatsApp:</strong> <a href="https://wa.me/2770834459163" target="_blank" style="color: #25D366; font-weight: bold;">Chat on WhatsApp</a><br>
+                    <strong>Service:</strong> Sales & Inquiries
+                </p>
+            </div>
+        </div>
+
+        <div class="facebook-cta">
+            <h3>Find Our Adverts on Facebook</h3>
+            <p>For current pricing, special deals, and stock photos, follow our official profile:</p>
+            <a href="https://www.facebook.com" target="_blank" class="fb-button">Find us: MJ Ndonyela</a>
+            <p style="margin-top: 15px; font-size: 0.9rem; color: #555;">Search for <strong>"MJ Ndonyela"</strong> on Facebook</p>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 Mbokodwa Farming (Pty) Ltd. Registered Poultry Business.
+    </footer>
+
+</body>
+</html>
